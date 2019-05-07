@@ -1,6 +1,16 @@
 # clojure-scad-test
 
+## build
+
+.clj -> .scad
+
+```
+lein run
+```
+
 ## input file
+
+Edit this file then feed it to `lein`.
 
 ```
 sandbox/src/sandbox/core.clj
@@ -8,15 +18,12 @@ sandbox/src/sandbox/core.clj
 
 ## output file
 
+Open this file by OpenSCAD.
+
 ```
 sandbox/simple-cube.scad
 ```
 
-## build
-
-```
-lein run
-```
 
 ## environment
 

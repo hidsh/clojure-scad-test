@@ -7,4 +7,5 @@
                  [scad-clj "0.4.0"]]
   :main ^:skip-aot sandbox.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:uberjar {:aot :all}}
+  :jvm-opts ["-XX:+TieredCompilation" "-XX:TieredStopAtLevel=1" "-Xverify:none"])

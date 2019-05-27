@@ -5,6 +5,7 @@
 .clj -> .scad
 
 ```
+cd sandbox
 lein run
 ```
 
